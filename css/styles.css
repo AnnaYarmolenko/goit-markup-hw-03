@@ -201,6 +201,13 @@ body {
   padding-left: 215px;
   padding-right: 215px;
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section2{
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
+
 }
 .li-title {
   display: flex;
@@ -344,12 +351,14 @@ footer {
   line-height: 1.7;
   color: var(--text-secondary-light);
 }
+/* .contactsfoot:last-child { */
+  margin-bottom: 0px;
+}
 .contactsfoot:hover,
 .contactsfoot:focus {
   color: var(--bg-color);
 }
 .footer-section {
-  margin-top: 94px;
   padding-top: 60px;
   padding-right: 1154px;
   padding-bottom: 60px;
@@ -357,4 +366,10 @@ footer {
 }
 .address {
   margin-top: 20px;
+}
+.li-contacts{
+  margin-bottom: 9px;
+}
+.li-contacts:last-child{
+  margin-bottom: 0px;
 }
