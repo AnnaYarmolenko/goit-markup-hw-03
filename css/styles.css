@@ -13,6 +13,7 @@
   --our-team-section-color: #f5f4fa;
   --footer-color: #2f303a;
   --navbar-border: #ececec;
+  --border-color: #EEEEEE;
 }
 
 a {
@@ -89,11 +90,12 @@ img {
 .item:not(:last-child) {
   margin-right: 50px;
 }
+
 .navbox {
   display: flex;
 }
 .navbar {
-  width: 1600px;
+  max-width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
@@ -118,9 +120,10 @@ body {
   letter-spacing: 0.03em;
   background: var(--bg-color);
 }
+
 .hero-section {
   background: var(--bg-hero-color);
-  width: 1600px;
+  max-width: 1600px;
   text-align: center;
   padding: 200px 0 200px 0;
 }
@@ -197,17 +200,15 @@ body {
   color: var(--text-secondary);
 }
 .section {
-  width: 1600px;
-  padding-left: 215px;
-  padding-right: 215px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section2{
-  width: 1600px;
-  padding-left: 215px;
-  padding-right: 215px;
-
+.container{
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .li-title {
   display: flex;
@@ -229,7 +230,7 @@ body {
   margin-right: 30px;
 }
 .our-team-section {
-  width: 1600px;
+  max-width: 1600px;
   padding-left: 215px;
   padding-right: 215px;
   padding-top: 94px;
@@ -328,15 +329,15 @@ body {
 }
 .card-contents {
   padding: 20px 24px;
-  border-right: 1px solid var(--);
-  border-left: 1px solid var(--card-border-color);
-  border-bottom: 1px solid var(--card-border-color);
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 /* ==========Footer styling========== */
 footer {
   background: var(--footer-color);
-  width: 1600px;
+  max-width: 1600px;
 }
 .logo-footer {
   font-family: Raleway;
