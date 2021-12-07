@@ -40,6 +40,7 @@ img {
 /* ==========Header styling========== */
 .header {
   background: var(--bg-color);
+  border-bottom: 1px solid var(--navbar-border);
 }
 .logo {
   font-family: Raleway;
@@ -103,7 +104,6 @@ img {
   display: flex;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid var(--navbar-border);
 }
 .logo {
   margin-right: 93px;
@@ -328,7 +328,7 @@ button {
   margin-bottom: 30px;
 }
 .li-our-project:nth-child(-n + 3) {
-  margin-top: 34px;
+  margin-top: 50px;
 }
 .li-our-project:nth-child(3n) {
   margin-right: 0;
@@ -370,6 +370,7 @@ footer {
 }
 .footer-section {
   padding-top: 60px;
+  padding-bottom: 60px;
   margin: 0px auto;
 }
 .address {
